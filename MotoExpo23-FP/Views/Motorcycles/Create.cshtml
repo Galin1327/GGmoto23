@@ -1,0 +1,26 @@
+﻿@model MotorcycleCreateModel
+@{
+    ViewData["Title"] = "Motorcycle Create";
+}
+
+<div class="text-center">
+    <form asp-area="" asp-controller="Motorcycles" asp-action="Create" method="post">
+        <div class="form-group">
+            <label for="model">Model</label>
+            <input asp-for="Model" class="form-control" id="model" />
+        </div>
+        <div class="form-group">
+            <label for="engineDisplacement">EngineDisplacement</label>
+            <input asp-for="EngineDisplacement" class="form-control" id="engineDisplacement" />
+        </div>
+        <div class="form-group">
+            <label for="price">Price</label>
+            <input asp-for="Price" class="form-control" id="price" />
+        </div>
+        <div class="form-group">
+            <label for="pictureUrl">PictureUrl</label>
+            <input asp-for="PictureUrl" class="form-control" id="pictureUrl" />
+        </div>
+        <input type="submit" value="Create" class="btn btn-primary" />
+    </form>
+</div>

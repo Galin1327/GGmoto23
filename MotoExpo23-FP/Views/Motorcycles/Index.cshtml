@@ -1,0 +1,21 @@
+﻿@model List<MotorcycleViewModel>
+@{
+    ViewData["Title"] = "Home Page";
+}
+
+<div class="text-center">
+    <h1 class="display-4">Welcome</h1>
+    <h2>Feel free to browse our colleciton of motorcycles.</h2>
+    <a class="card-link" asp-area="" asp-controller="Motorcycles" asp-action="Create">Create</a>
+    @foreach (var motorcycle in Model)
+    {
+        <div class="card" style="width: 18rem;">
+            <img class="card-img-top" src="@motorcycle.PictureUrl">
+            <div class="card-body">
+                <h5 class="card-title">@motorcycle.Model</h5>
+                <a href="https://dskdigitalbank.bg/Request?motorid=@motorcycle.Id" target="_blank" class="card-link">@motorcycle.Price $</a>
+                <a class="card-link" asp-area="" asp-controller="Motorcycles" asp-action="Details" asp-route-id="@motorcycle.Id">Details</a>
+            </div>
+        </div>
+    }
+</div>

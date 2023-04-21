@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.4.33213.308
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MotoExpo23-FP", "MotoExpo23-FP\MotoExpo23-FP.csproj", "{C830CEE6-0E91-4835-BD57-4EFD69675A40}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{C830CEE6-0E91-4835-BD57-4EFD69675A40}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C830CEE6-0E91-4835-BD57-4EFD69675A40}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C830CEE6-0E91-4835-BD57-4EFD69675A40}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C830CEE6-0E91-4835-BD57-4EFD69675A40}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {E44A7102-8FAC-4DFD-8C6A-4101F278257F}
+	EndGlobalSection
+EndGlobal
